@@ -1,0 +1,34 @@
+﻿<Window x:Class="GymManagment.Desktop.Windows.Auth.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GymManagment.Desktop.Windows.Auth"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="650" Width="900"        
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Background="Transparent">
+      <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0"
+                CornerRadius="10">
+            
+        </Border>
+        
+        <Border Grid.Column="1"
+                CornerRadius="0 10 10 0"
+                Background="#fff">
+            <StackPanel>
+                
+            </StackPanel>
+        </Border>
+
+    </Grid>
+
+</Window>
